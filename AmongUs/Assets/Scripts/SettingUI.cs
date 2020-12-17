@@ -59,7 +59,7 @@ public class SettingUI : MonoBehaviour
         animator.SetTrigger("close");
         yield return new WaitForSeconds(0.5f);
         gameObject.SetActive(false);
-        animator.ResetTrigger("close");
+        animator.ResetTrigger("close"); // Resets the value of the given trigger parameter.
     }
 
 }

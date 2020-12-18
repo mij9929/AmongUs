@@ -10,4 +10,5 @@ public enum EControlType
 public class PlayerSettings : MonoBehaviour
 {
     public static EControlType controlType;
+    public static string nickname;
 }
